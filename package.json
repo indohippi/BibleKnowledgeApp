@@ -2,12 +2,10 @@
   "name": "BibleKnowledgeApp",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "web": "react-scripts start"
-  },
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.74.1",
